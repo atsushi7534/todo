@@ -1,4 +1,4 @@
-document.write("Todo App");
+
 
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
@@ -12,6 +12,8 @@ function App() {
         </Container>
     );
 }
+
+document.write("Todo App");
 
 function TodoListCard() {
     const [items, setItems] = React.useState(null);

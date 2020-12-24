@@ -13,7 +13,6 @@ function App() {
     );
 }
 
-document.write("Todo App");
 
 function TodoListCard() {
     const [items, setItems] = React.useState(null);
